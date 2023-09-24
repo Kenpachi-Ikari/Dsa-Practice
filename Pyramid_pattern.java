@@ -5,9 +5,9 @@ public class Pyramid_pattern {
         int n= sc.nextInt();
         for(int i=1;i<=n;i++)
         {
-            for(int j=n-i;j>0;j--)
+            for(int j=n-i;j>0;j--)//space printing
                 System.out.print(" ");
-            for(int k=1;k<=(i*2)-1;k++)
+            for(int k=1;k<=(i*2)-1;k++)// star printing
                 System.out.print("*");
             System.out.println();
         }
